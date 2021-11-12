@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490905B626EB7FFD00624DDC /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490905B526EB7FFD00624DDC /* AuthorizationView.swift */; };
+		490905B726EB7FFD00624DDC /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490905B526EB7FFD00624DDC /* AuthorizationView.swift */; };
+		490F929826E803EE00E36129 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F929726E803EE00E36129 /* HomeView.swift */; };
+		490F929926E803EE00E36129 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F929726E803EE00E36129 /* HomeView.swift */; };
+		49495E3D26E8BD5D00C928A5 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49495E3C26E8BD5D00C928A5 /* MasterView.swift */; };
+		49495E3E26E8BD5D00C928A5 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49495E3C26E8BD5D00C928A5 /* MasterView.swift */; };
+		49495E4026E8D60400C928A5 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49495E3F26E8D60400C928A5 /* PetDetailView.swift */; };
+		49495E4126E8D60400C928A5 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49495E3F26E8D60400C928A5 /* PetDetailView.swift */; };
 		496F329726C694CA0051B341 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F329626C694CA0051B341 /* Tests_iOS.swift */; };
 		496F32A226C694CA0051B341 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F32A126C694CA0051B341 /* Tests_macOS.swift */; };
 		496F32A426C694CA0051B341 /* somedaypetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F327B26C694C70051B341 /* somedaypetApp.swift */; };
@@ -15,6 +23,10 @@
 		496F32A726C694CA0051B341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F327C26C694C70051B341 /* ContentView.swift */; };
 		496F32A826C694CA0051B341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496F327D26C694C90051B341 /* Assets.xcassets */; };
 		496F32A926C694CA0051B341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496F327D26C694C90051B341 /* Assets.xcassets */; };
+		496F32BB26C6971B0051B341 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F32BA26C6971B0051B341 /* Color+Extension.swift */; };
+		496F32BE26C697960051B341 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F32BD26C697960051B341 /* Pet.swift */; };
+		498B99B426FC6FAB00F50EFA /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B99B326FC6FAB00F50EFA /* FilterView.swift */; };
+		498B99B526FC6FAC00F50EFA /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B99B326FC6FAB00F50EFA /* FilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490905B526EB7FFD00624DDC /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		490F929726E803EE00E36129 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		49495E3C26E8BD5D00C928A5 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		49495E3F26E8D60400C928A5 /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
 		496F327B26C694C70051B341 /* somedaypetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = somedaypetApp.swift; sourceTree = "<group>"; };
 		496F327C26C694C70051B341 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		496F327D26C694C90051B341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +65,9 @@
 		496F329D26C694CA0051B341 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		496F32A126C694CA0051B341 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		496F32A326C694CA0051B341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496F32BA26C6971B0051B341 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		496F32BD26C697960051B341 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		498B99B326FC6FAB00F50EFA /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +105,7 @@
 		496F327526C694C70051B341 = {
 			isa = PBXGroup;
 			children = (
+				496F32B826C695430051B341 /* somedaypet */,
 				496F327A26C694C70051B341 /* Shared */,
 				496F328426C694C90051B341 /* iOS */,
 				496F328B26C694C90051B341 /* macOS */,
@@ -100,7 +120,12 @@
 			children = (
 				496F327B26C694C70051B341 /* somedaypetApp.swift */,
 				496F327C26C694C70051B341 /* ContentView.swift */,
+				490F929726E803EE00E36129 /* HomeView.swift */,
+				49495E3C26E8BD5D00C928A5 /* MasterView.swift */,
+				49495E3F26E8D60400C928A5 /* PetDetailView.swift */,
 				496F327D26C694C90051B341 /* Assets.xcassets */,
+				490905B526EB7FFD00624DDC /* AuthorizationView.swift */,
+				498B99B326FC6FAB00F50EFA /* FilterView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -149,6 +174,31 @@
 				496F32A326C694CA0051B341 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		496F32B826C695430051B341 /* somedaypet */ = {
+			isa = PBXGroup;
+			children = (
+				496F32BC26C697860051B341 /* Model */,
+				496F32B926C696F10051B341 /* Extension */,
+			);
+			path = somedaypet;
+			sourceTree = "<group>";
+		};
+		496F32B926C696F10051B341 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				496F32BA26C6971B0051B341 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		496F32BC26C697860051B341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				496F32BD26C697960051B341 /* Pet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +358,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49495E3D26E8BD5D00C928A5 /* MasterView.swift in Sources */,
 				496F32A626C694CA0051B341 /* ContentView.swift in Sources */,
+				496F32BE26C697960051B341 /* Pet.swift in Sources */,
+				49495E4026E8D60400C928A5 /* PetDetailView.swift in Sources */,
+				498B99B426FC6FAB00F50EFA /* FilterView.swift in Sources */,
+				496F32BB26C6971B0051B341 /* Color+Extension.swift in Sources */,
+				490F929826E803EE00E36129 /* HomeView.swift in Sources */,
+				490905B626EB7FFD00624DDC /* AuthorizationView.swift in Sources */,
 				496F32A426C694CA0051B341 /* somedaypetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +374,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498B99B526FC6FAC00F50EFA /* FilterView.swift in Sources */,
+				490F929926E803EE00E36129 /* HomeView.swift in Sources */,
+				49495E4126E8D60400C928A5 /* PetDetailView.swift in Sources */,
+				490905B726EB7FFD00624DDC /* AuthorizationView.swift in Sources */,
 				496F32A726C694CA0051B341 /* ContentView.swift in Sources */,
+				49495E3E26E8BD5D00C928A5 /* MasterView.swift in Sources */,
 				496F32A526C694CA0051B341 /* somedaypetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
